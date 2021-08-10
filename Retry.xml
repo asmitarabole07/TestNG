@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGSuite">
+
+	<listeners>
+		<listener class-name="retry_failed_case.RetryListner"></listener>
+	</listeners>
+
+	<!-- <groups> <run> <include name="smoke"></include> </run> </groups> -->
+	<test name="retry test-1">
+		<classes>
+			<class name="retry_failed_case.Test_login" />
+		</classes>
+	</test> <!-- Test -->
+
+	
+</suite> <!-- Suite -->
