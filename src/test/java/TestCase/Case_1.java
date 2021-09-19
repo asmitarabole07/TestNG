@@ -2,7 +2,6 @@ package TestCase;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -17,7 +16,7 @@ public class Case_1 extends Base_class {
 		System.out.println("DB closed");
 	}
 	
-	@Before
+	
 	public void browserlaunch() 
 	{
 		System.out.println("Launching browser");

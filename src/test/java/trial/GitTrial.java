@@ -17,6 +17,7 @@ public class GitTrial {
 	@Test
 	public void trial3() {
 		System.out.println("trial 3");
+		System.out.println("trial 4");
 	}
 }
 

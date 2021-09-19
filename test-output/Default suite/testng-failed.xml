@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screenshot.Capture_Screenshot">
+      <class name="orangeHRM.Tests_OHRM">
         <methods>
-          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="passwordReset"/>
+          <include name="Login"/>
           <include name="tearDown"/>
-          <include name="mvnTest"/>
+          <include name="SelectFunctionality"/>
         </methods>
-      </class> <!-- screenshot.Capture_Screenshot -->
+      </class> <!-- orangeHRM.Tests_OHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
